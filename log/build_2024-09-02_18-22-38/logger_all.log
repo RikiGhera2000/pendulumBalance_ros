@@ -1,0 +1,193 @@
+[0.706s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.706s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b0d8e039c30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b0d8e1b3190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b0d8e1b3190>>, mixin_verb=('build',))
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.882s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.926s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.927s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extension 'ignore'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extension 'ignore_ament_install'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extensions ['colcon_pkg']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extension 'colcon_pkg'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extensions ['colcon_meta']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extension 'colcon_meta'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extensions ['ros']
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/cart_pole_controller) by extension 'ros'
+[1.944s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cart_pole_controller' with type 'ros.ament_cmake' and name 'cart_pole_controller'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extension 'ignore'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extension 'ignore_ament_install'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extensions ['colcon_pkg']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extension 'colcon_pkg'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extensions ['colcon_meta']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extension 'colcon_meta'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extensions ['ros']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_polecart_ros) by extension 'ros'
+[1.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_polecart_ros' with type 'ros.ament_python' and name 'gazebo_polecart_ros'
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.947s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.072s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/user/ros2_ws/install
+[2.079s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/humble
+[2.089s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'cmake_args' from command line to 'None'
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'cmake_target' from command line to 'None'
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'cart_pole_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.331s] DEBUG:colcon.colcon_core.verb:Building package 'cart_pole_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/cart_pole_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/cart_pole_controller', 'merge_install': False, 'path': '/home/user/ros2_ws/src/cart_pole_controller', 'symlink_install': False, 'test_result_base': None}
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'cmake_args' from command line to 'None'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'cmake_target' from command line to 'None'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'cmake_clean_first' from command line to 'False'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'cmake_force_configure' from command line to 'False'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'ament_cmake_args' from command line to 'None'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[2.332s] Level 5:colcon.colcon_core.verb:set package 'gazebo_polecart_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.333s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_polecart_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/gazebo_polecart_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/gazebo_polecart_ros', 'merge_install': False, 'path': '/home/user/ros2_ws/src/gazebo_polecart_ros', 'symlink_install': False, 'test_result_base': None}
+[2.333s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/cart_pole_controller' with build type 'ament_cmake'
+[2.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/cart_pole_controller'
+[2.365s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.383s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/ros2_ws/src/gazebo_polecart_ros' with build type 'ament_python'
+[2.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_polecart_ros', 'ament_prefix_path')
+[2.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/hook/ament_prefix_path.ps1'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/hook/ament_prefix_path.dsv'
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/hook/ament_prefix_path.sh'
+[2.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/cart_pole_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/cart_pole_controller -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/cart_pole_controller
+[3.266s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/ros2_ws/src/gazebo_polecart_ros'
+[3.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/src/gazebo_polecart_ros': PYTHONPATH=/home/user/ros2_ws/build/gazebo_polecart_ros/prefix_override:/home/user/ros2_ws/install/gazebo_polecart_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gazebo_polecart_ros build --build-base /home/user/ros2_ws/build/gazebo_polecart_ros/build install --record /home/user/ros2_ws/build/gazebo_polecart_ros/install.log --single-version-externally-managed install_data
+[5.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/src/gazebo_polecart_ros' returned '0': PYTHONPATH=/home/user/ros2_ws/build/gazebo_polecart_ros/prefix_override:/home/user/ros2_ws/install/gazebo_polecart_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gazebo_polecart_ros build --build-base /home/user/ros2_ws/build/gazebo_polecart_ros/build install --record /home/user/ros2_ws/build/gazebo_polecart_ros/install.log --single-version-externally-managed install_data
+[5.594s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/gazebo_polecart_ros' for CMake module files
+[5.595s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/gazebo_polecart_ros' for CMake config files
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/gazebo_polecart_ros/lib'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/gazebo_polecart_ros/bin'
+[5.598s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/gazebo_polecart_ros/lib/pkgconfig/gazebo_polecart_ros.pc'
+[5.599s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/gazebo_polecart_ros/lib/python3.10/site-packages'
+[5.600s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_polecart_ros', 'pythonpath')
+[5.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/hook/pythonpath.ps1'
+[5.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/hook/pythonpath.dsv'
+[5.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/hook/pythonpath.sh'
+[5.606s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/gazebo_polecart_ros/bin'
+[5.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_polecart_ros)
+[5.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/package.ps1'
+[5.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/package.dsv'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/package.sh'
+[5.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/package.bash'
+[5.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/gazebo_polecart_ros/share/gazebo_polecart_ros/package.zsh'
+[5.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/gazebo_polecart_ros/share/colcon-core/packages/gazebo_polecart_ros)
+[8.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/cart_pole_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/cart_pole_controller -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/cart_pole_controller
+[8.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/cart_pole_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_controller -- -j4 -l4
+[34.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/cart_pole_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_controller -- -j4 -l4
+[34.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/cart_pole_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_controller
+[34.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cart_pole_controller)
+[34.385s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller' for CMake module files
+[34.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/cart_pole_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_controller
+[34.388s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller' for CMake config files
+[34.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_pole_controller', 'cmake_prefix_path')
+[34.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/hook/cmake_prefix_path.ps1'
+[34.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/hook/cmake_prefix_path.dsv'
+[34.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/hook/cmake_prefix_path.sh'
+[34.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/lib'
+[34.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/bin'
+[34.394s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/lib/pkgconfig/cart_pole_controller.pc'
+[34.395s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/lib/python3.10/site-packages'
+[34.396s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/bin'
+[34.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.ps1'
+[34.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.dsv'
+[34.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.sh'
+[34.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.bash'
+[34.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.zsh'
+[34.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/cart_pole_controller/share/colcon-core/packages/cart_pole_controller)
+[34.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cart_pole_controller)
+[34.489s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller' for CMake module files
+[34.491s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller' for CMake config files
+[34.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('cart_pole_controller', 'cmake_prefix_path')
+[34.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/hook/cmake_prefix_path.ps1'
+[34.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/hook/cmake_prefix_path.dsv'
+[34.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/hook/cmake_prefix_path.sh'
+[34.498s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/lib'
+[34.498s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/bin'
+[34.498s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/lib/pkgconfig/cart_pole_controller.pc'
+[34.499s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/lib/python3.10/site-packages'
+[34.500s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/cart_pole_controller/bin'
+[34.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.ps1'
+[34.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.dsv'
+[34.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.sh'
+[34.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.bash'
+[34.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.zsh'
+[34.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/cart_pole_controller/share/colcon-core/packages/cart_pole_controller)
+[34.509s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[34.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[34.510s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[34.510s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[34.530s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[34.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[34.531s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[34.594s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[34.595s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.ps1'
+[34.600s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_ps1.py'
+[34.606s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.ps1'
+[34.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.sh'
+[34.616s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_sh.py'
+[34.619s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.sh'
+[34.628s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.bash'
+[34.633s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.bash'
+[34.642s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.zsh'
+[34.647s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.zsh'

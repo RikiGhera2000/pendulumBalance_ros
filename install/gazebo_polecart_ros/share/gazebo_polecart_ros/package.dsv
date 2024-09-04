@@ -1,0 +1,6 @@
+source;share/gazebo_polecart_ros/hook/pythonpath.ps1
+source;share/gazebo_polecart_ros/hook/pythonpath.dsv
+source;share/gazebo_polecart_ros/hook/pythonpath.sh
+source;share/gazebo_polecart_ros/hook/ament_prefix_path.ps1
+source;share/gazebo_polecart_ros/hook/ament_prefix_path.dsv
+source;share/gazebo_polecart_ros/hook/ament_prefix_path.sh

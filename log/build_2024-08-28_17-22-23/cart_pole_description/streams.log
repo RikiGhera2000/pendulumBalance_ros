@@ -1,0 +1,44 @@
+[0.027s] Invoking command in '/home/user/ros2_ws/build/cart_pole_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/cart_pole_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/cart_pole_description
+[0.292s] -- The C compiler identification is GNU 11.4.0
+[0.539s] -- The CXX compiler identification is GNU 11.4.0
+[0.573s] -- Detecting C compiler ABI info
+[0.725s] -- Detecting C compiler ABI info - done
+[0.745s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.746s] -- Detecting C compile features
+[0.748s] -- Detecting C compile features - done
+[0.761s] -- Detecting CXX compiler ABI info
+[0.910s] -- Detecting CXX compiler ABI info - done
+[0.938s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.938s] -- Detecting CXX compile features
+[0.940s] -- Detecting CXX compile features - done
+[0.948s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.492s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.662s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.664s] -- Added test 'lint_cmake' to check CMake code style
+[1.665s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.668s] -- Added test 'xmllint' to check XML markup files
+[1.671s] -- Configuring done
+[1.675s] -- Generating done
+[1.676s] -- Build files have been written to: /home/user/ros2_ws/build/cart_pole_description
+[1.683s] Invoked command in '/home/user/ros2_ws/build/cart_pole_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/cart_pole_description -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/cart_pole_description
+[1.691s] Invoking command in '/home/user/ros2_ws/build/cart_pole_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_description -- -j4 -l4
+[1.747s] Invoked command in '/home/user/ros2_ws/build/cart_pole_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_description -- -j4 -l4
+[1.798s] Invoking command in '/home/user/ros2_ws/build/cart_pole_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_description
+[1.811s] -- Install configuration: ""
+[1.811s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/ament_index/resource_index/package_run_dependencies/cart_pole_description
+[1.812s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/ament_index/resource_index/parent_prefix_path/cart_pole_description
+[1.812s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/environment/ament_prefix_path.sh
+[1.813s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/environment/ament_prefix_path.dsv
+[1.813s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/environment/path.sh
+[1.813s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/environment/path.dsv
+[1.814s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/local_setup.bash
+[1.814s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/local_setup.sh
+[1.814s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/local_setup.zsh
+[1.815s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/local_setup.dsv
+[1.815s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/package.dsv
+[1.816s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/ament_index/resource_index/packages/cart_pole_description
+[1.816s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/cmake/cart_pole_descriptionConfig.cmake
+[1.816s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/cmake/cart_pole_descriptionConfig-version.cmake
+[1.817s] -- Installing: /home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/package.xml
+[1.821s] Invoked command in '/home/user/ros2_ws/build/cart_pole_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_description

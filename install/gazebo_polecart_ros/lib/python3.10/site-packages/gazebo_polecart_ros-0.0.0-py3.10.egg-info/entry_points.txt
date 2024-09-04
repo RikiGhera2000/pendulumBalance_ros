@@ -1,0 +1,3 @@
+[console_scripts]
+gazebo_spawn = gazebo_polecart_ros.gazebo_spawn:main
+

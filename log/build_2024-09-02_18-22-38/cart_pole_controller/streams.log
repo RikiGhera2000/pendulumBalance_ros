@@ -1,0 +1,61 @@
+[0.087s] Invoking command in '/home/user/ros2_ws/build/cart_pole_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/cart_pole_controller -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/cart_pole_controller
+[0.368s] -- The C compiler identification is GNU 11.4.0
+[0.616s] -- The CXX compiler identification is GNU 11.4.0
+[0.643s] -- Detecting C compiler ABI info
+[0.843s] -- Detecting C compiler ABI info - done
+[0.890s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.892s] -- Detecting C compile features
+[0.895s] -- Detecting C compile features - done
+[0.911s] -- Detecting CXX compiler ABI info
+[1.162s] -- Detecting CXX compiler ABI info - done
+[1.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.199s] -- Detecting CXX compile features
+[1.200s] -- Detecting CXX compile features - done
+[1.218s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.650s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.003s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.254s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.280s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.320s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.877s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.888s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.253s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.370s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.626s] -- Looking for pthread.h
+[4.038s] -- Looking for pthread.h - found
+[4.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.403s] -- Found Threads: TRUE  
+[5.330s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.178s] -- Configuring done
+[6.217s] -- Generating done
+[6.227s] -- Build files have been written to: /home/user/ros2_ws/build/cart_pole_controller
+[6.257s] Invoked command in '/home/user/ros2_ws/build/cart_pole_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/cart_pole_controller -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/cart_pole_controller
+[6.264s] Invoking command in '/home/user/ros2_ws/build/cart_pole_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_controller -- -j4 -l4
+[6.410s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[30.498s] [100%] [32m[1mLinking CXX executable controller[0m
+[31.862s] [100%] Built target controller
+[31.893s] Invoked command in '/home/user/ros2_ws/build/cart_pole_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_controller -- -j4 -l4
+[31.990s] Invoking command in '/home/user/ros2_ws/build/cart_pole_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_controller
+[32.014s] -- Install configuration: ""
+[32.015s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/lib/cart_pole_controller/controller
+[32.032s] -- Set runtime path of "/home/user/ros2_ws/install/cart_pole_controller/lib/cart_pole_controller/controller" to ""
+[32.033s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/package_run_dependencies/cart_pole_controller
+[32.034s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/parent_prefix_path/cart_pole_controller
+[32.035s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/ament_prefix_path.sh
+[32.035s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/ament_prefix_path.dsv
+[32.036s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/path.sh
+[32.037s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/path.dsv
+[32.038s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.bash
+[32.039s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.sh
+[32.039s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.zsh
+[32.040s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.dsv
+[32.041s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.dsv
+[32.041s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/packages/cart_pole_controller
+[32.041s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/cmake/cart_pole_controllerConfig.cmake
+[32.042s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/cmake/cart_pole_controllerConfig-version.cmake
+[32.042s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.xml
+[32.050s] Invoked command in '/home/user/ros2_ws/build/cart_pole_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_controller

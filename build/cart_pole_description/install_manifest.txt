@@ -1,0 +1,17 @@
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description//display.launch.py
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description//cart_pole.urdf
+/home/user/ros2_ws/install/cart_pole_description/share/ament_index/resource_index/package_run_dependencies/cart_pole_description
+/home/user/ros2_ws/install/cart_pole_description/share/ament_index/resource_index/parent_prefix_path/cart_pole_description
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/environment/ament_prefix_path.sh
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/environment/ament_prefix_path.dsv
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/environment/path.sh
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/environment/path.dsv
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/local_setup.bash
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/local_setup.sh
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/local_setup.zsh
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/local_setup.dsv
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/package.dsv
+/home/user/ros2_ws/install/cart_pole_description/share/ament_index/resource_index/packages/cart_pole_description
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/cmake/cart_pole_descriptionConfig.cmake
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/cmake/cart_pole_descriptionConfig-version.cmake
+/home/user/ros2_ws/install/cart_pole_description/share/cart_pole_description/package.xml

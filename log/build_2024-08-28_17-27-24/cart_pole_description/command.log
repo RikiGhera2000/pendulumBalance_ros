@@ -1,0 +1,4 @@
+Invoking command in '/home/user/ros2_ws/build/cart_pole_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_description -- -j4 -l4
+Invoked command in '/home/user/ros2_ws/build/cart_pole_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_description -- -j4 -l4
+Invoking command in '/home/user/ros2_ws/build/cart_pole_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_description
+Invoked command in '/home/user/ros2_ws/build/cart_pole_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_description
