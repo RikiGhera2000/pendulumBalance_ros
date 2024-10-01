@@ -70,6 +70,9 @@ private:
         auto force_msg = geometry_msgs::msg::Wrench();
         force_msg.force.y = control_output;
         force_publisher_->publish(force_msg);
+        
+         // Log di debug per monitorare l'andamento
+        RCLCPP_INFO(this->get_logger(), "Angle: %.3f, Control Output: %.3f", pole_angle_, control_output);
     }
 
     rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr pole_state_subscriber_;
@@ -88,4 +91,3 @@ int main(int argc, char * argv[])
     rclcpp::shutdown();
     return 0;
 }
-

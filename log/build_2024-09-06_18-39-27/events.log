@@ -1,0 +1,313 @@
+[0.000000] (-) TimerEvent: {}
+[0.000243] (-) JobUnselected: {'identifier': 'gazebo_polecart_ros'}
+[0.000305] (cart_pole_controller) JobQueued: {'identifier': 'cart_pole_controller', 'dependencies': OrderedDict()}
+[0.000358] (cart_pole_controller) JobStarted: {'identifier': 'cart_pole_controller'}
+[0.035616] (cart_pole_controller) JobProgress: {'identifier': 'cart_pole_controller', 'progress': 'cmake'}
+[0.039461] (cart_pole_controller) JobProgress: {'identifier': 'cart_pole_controller', 'progress': 'build'}
+[0.042814] (cart_pole_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/cart_pole_controller', '--', '-j4', '-l4'], 'cwd': '/home/user/ros2_ws/build/cart_pole_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5156'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin/python3:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/si:@/tmp/.ICE-unix/4610,unix/si:/tmp/.ICE-unix/4610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/701217f9_43e4_4b97_8eb8_afe9dc7b2107'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U1X9S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/gazebo_polecart_ros:/home/user/ros2_ws/install/cart_pole_description:/home/user/ros2_ws/install/cart_pole_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/cart_pole_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/gazebo_polecart_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/cart_pole_description:/home/user/ros2_ws/install/cart_pole_controller:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble')]), 'shell': False}
+[0.099859] (-) TimerEvent: {}
+[0.201043] (-) TimerEvent: {}
+[0.302567] (-) TimerEvent: {}
+[0.404110] (-) TimerEvent: {}
+[0.505686] (-) TimerEvent: {}
+[0.517115] (cart_pole_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.605932] (-) TimerEvent: {}
+[0.707153] (-) TimerEvent: {}
+[0.808183] (-) TimerEvent: {}
+[0.910369] (-) TimerEvent: {}
+[1.011000] (-) TimerEvent: {}
+[1.112532] (-) TimerEvent: {}
+[1.213510] (-) TimerEvent: {}
+[1.314827] (-) TimerEvent: {}
+[1.416451] (-) TimerEvent: {}
+[1.518358] (-) TimerEvent: {}
+[1.620137] (-) TimerEvent: {}
+[1.721440] (-) TimerEvent: {}
+[1.822892] (-) TimerEvent: {}
+[1.926035] (-) TimerEvent: {}
+[2.030795] (-) TimerEvent: {}
+[2.133573] (-) TimerEvent: {}
+[2.237283] (-) TimerEvent: {}
+[2.338226] (-) TimerEvent: {}
+[2.439450] (-) TimerEvent: {}
+[2.540851] (-) TimerEvent: {}
+[2.642562] (-) TimerEvent: {}
+[2.743911] (-) TimerEvent: {}
+[2.845402] (-) TimerEvent: {}
+[2.946721] (-) TimerEvent: {}
+[3.049575] (-) TimerEvent: {}
+[3.152878] (-) TimerEvent: {}
+[3.255968] (-) TimerEvent: {}
+[3.357836] (-) TimerEvent: {}
+[3.459163] (-) TimerEvent: {}
+[3.560407] (-) TimerEvent: {}
+[3.662654] (-) TimerEvent: {}
+[3.766507] (-) TimerEvent: {}
+[3.868450] (-) TimerEvent: {}
+[3.970332] (-) TimerEvent: {}
+[4.075036] (-) TimerEvent: {}
+[4.179472] (-) TimerEvent: {}
+[4.281035] (-) TimerEvent: {}
+[4.382405] (-) TimerEvent: {}
+[4.483262] (-) TimerEvent: {}
+[4.585423] (-) TimerEvent: {}
+[4.687754] (-) TimerEvent: {}
+[4.790247] (-) TimerEvent: {}
+[4.892313] (-) TimerEvent: {}
+[4.993594] (-) TimerEvent: {}
+[5.095429] (-) TimerEvent: {}
+[5.196428] (-) TimerEvent: {}
+[5.298403] (-) TimerEvent: {}
+[5.399543] (-) TimerEvent: {}
+[5.500857] (-) TimerEvent: {}
+[5.602255] (-) TimerEvent: {}
+[5.704390] (-) TimerEvent: {}
+[5.805963] (-) TimerEvent: {}
+[5.908101] (-) TimerEvent: {}
+[6.009426] (-) TimerEvent: {}
+[6.110385] (-) TimerEvent: {}
+[6.212201] (-) TimerEvent: {}
+[6.316857] (-) TimerEvent: {}
+[6.418124] (-) TimerEvent: {}
+[6.522242] (-) TimerEvent: {}
+[6.624614] (-) TimerEvent: {}
+[6.726372] (-) TimerEvent: {}
+[6.827374] (-) TimerEvent: {}
+[6.929840] (-) TimerEvent: {}
+[7.031430] (-) TimerEvent: {}
+[7.136902] (-) TimerEvent: {}
+[7.239379] (-) TimerEvent: {}
+[7.341326] (-) TimerEvent: {}
+[7.442374] (-) TimerEvent: {}
+[7.543857] (-) TimerEvent: {}
+[7.645385] (-) TimerEvent: {}
+[7.748425] (-) TimerEvent: {}
+[7.849493] (-) TimerEvent: {}
+[7.950974] (-) TimerEvent: {}
+[8.051848] (-) TimerEvent: {}
+[8.157379] (-) TimerEvent: {}
+[8.259532] (-) TimerEvent: {}
+[8.361040] (-) TimerEvent: {}
+[8.462543] (-) TimerEvent: {}
+[8.563415] (-) TimerEvent: {}
+[8.665236] (-) TimerEvent: {}
+[8.766542] (-) TimerEvent: {}
+[8.868112] (-) TimerEvent: {}
+[8.971359] (-) TimerEvent: {}
+[9.073874] (-) TimerEvent: {}
+[9.174856] (-) TimerEvent: {}
+[9.276829] (-) TimerEvent: {}
+[9.377710] (-) TimerEvent: {}
+[9.479488] (-) TimerEvent: {}
+[9.581071] (-) TimerEvent: {}
+[9.682838] (-) TimerEvent: {}
+[9.784755] (-) TimerEvent: {}
+[9.885440] (-) TimerEvent: {}
+[9.986883] (-) TimerEvent: {}
+[10.088420] (-) TimerEvent: {}
+[10.189345] (-) TimerEvent: {}
+[10.290497] (-) TimerEvent: {}
+[10.392175] (-) TimerEvent: {}
+[10.494098] (-) TimerEvent: {}
+[10.595313] (-) TimerEvent: {}
+[10.696394] (-) TimerEvent: {}
+[10.798506] (-) TimerEvent: {}
+[10.900049] (-) TimerEvent: {}
+[11.000768] (-) TimerEvent: {}
+[11.101397] (-) TimerEvent: {}
+[11.202370] (-) TimerEvent: {}
+[11.303702] (-) TimerEvent: {}
+[11.405906] (-) TimerEvent: {}
+[11.507816] (-) TimerEvent: {}
+[11.609644] (-) TimerEvent: {}
+[11.714001] (-) TimerEvent: {}
+[11.815225] (-) TimerEvent: {}
+[11.916574] (-) TimerEvent: {}
+[12.017893] (-) TimerEvent: {}
+[12.119822] (-) TimerEvent: {}
+[12.220690] (-) TimerEvent: {}
+[12.322715] (-) TimerEvent: {}
+[12.424399] (-) TimerEvent: {}
+[12.525769] (-) TimerEvent: {}
+[12.626537] (-) TimerEvent: {}
+[12.729015] (-) TimerEvent: {}
+[12.830617] (-) TimerEvent: {}
+[12.932503] (-) TimerEvent: {}
+[13.033663] (-) TimerEvent: {}
+[13.134713] (-) TimerEvent: {}
+[13.235467] (-) TimerEvent: {}
+[13.338420] (-) TimerEvent: {}
+[13.439411] (-) TimerEvent: {}
+[13.540617] (-) TimerEvent: {}
+[13.643372] (-) TimerEvent: {}
+[13.744917] (-) TimerEvent: {}
+[13.846512] (-) TimerEvent: {}
+[13.948346] (-) TimerEvent: {}
+[14.049417] (-) TimerEvent: {}
+[14.151064] (-) TimerEvent: {}
+[14.251909] (-) TimerEvent: {}
+[14.356009] (-) TimerEvent: {}
+[14.458136] (-) TimerEvent: {}
+[14.559070] (-) TimerEvent: {}
+[14.660822] (-) TimerEvent: {}
+[14.762086] (-) TimerEvent: {}
+[14.864157] (-) TimerEvent: {}
+[14.966465] (-) TimerEvent: {}
+[15.067392] (-) TimerEvent: {}
+[15.169351] (-) TimerEvent: {}
+[15.270011] (-) TimerEvent: {}
+[15.371808] (-) TimerEvent: {}
+[15.473397] (-) TimerEvent: {}
+[15.574422] (-) TimerEvent: {}
+[15.676574] (-) TimerEvent: {}
+[15.777715] (-) TimerEvent: {}
+[15.880525] (-) TimerEvent: {}
+[15.981190] (-) TimerEvent: {}
+[16.082710] (-) TimerEvent: {}
+[16.185425] (-) TimerEvent: {}
+[16.288416] (-) TimerEvent: {}
+[16.389869] (-) TimerEvent: {}
+[16.491142] (-) TimerEvent: {}
+[16.592547] (-) TimerEvent: {}
+[16.693995] (-) TimerEvent: {}
+[16.795731] (-) TimerEvent: {}
+[16.898348] (-) TimerEvent: {}
+[17.000547] (-) TimerEvent: {}
+[17.101933] (-) TimerEvent: {}
+[17.205145] (-) TimerEvent: {}
+[17.306393] (-) TimerEvent: {}
+[17.407733] (-) TimerEvent: {}
+[17.509152] (-) TimerEvent: {}
+[17.610676] (-) TimerEvent: {}
+[17.712213] (-) TimerEvent: {}
+[17.813498] (-) TimerEvent: {}
+[17.915368] (-) TimerEvent: {}
+[18.016361] (-) TimerEvent: {}
+[18.118902] (-) TimerEvent: {}
+[18.221513] (-) TimerEvent: {}
+[18.322727] (-) TimerEvent: {}
+[18.423773] (-) TimerEvent: {}
+[18.525436] (-) TimerEvent: {}
+[18.629903] (-) TimerEvent: {}
+[18.735005] (-) TimerEvent: {}
+[18.837676] (-) TimerEvent: {}
+[18.941900] (-) TimerEvent: {}
+[19.045822] (-) TimerEvent: {}
+[19.149018] (-) TimerEvent: {}
+[19.250714] (-) TimerEvent: {}
+[19.352624] (-) TimerEvent: {}
+[19.454870] (-) TimerEvent: {}
+[19.557362] (-) TimerEvent: {}
+[19.658351] (-) TimerEvent: {}
+[19.760489] (-) TimerEvent: {}
+[19.861895] (-) TimerEvent: {}
+[19.963544] (-) TimerEvent: {}
+[20.066518] (-) TimerEvent: {}
+[20.168552] (-) TimerEvent: {}
+[20.270456] (-) TimerEvent: {}
+[20.372781] (-) TimerEvent: {}
+[20.474435] (-) TimerEvent: {}
+[20.576927] (-) TimerEvent: {}
+[20.678427] (-) TimerEvent: {}
+[20.779384] (-) TimerEvent: {}
+[20.880395] (-) TimerEvent: {}
+[20.982549] (-) TimerEvent: {}
+[21.086106] (-) TimerEvent: {}
+[21.187909] (-) TimerEvent: {}
+[21.289955] (-) TimerEvent: {}
+[21.391140] (-) TimerEvent: {}
+[21.494918] (-) TimerEvent: {}
+[21.596773] (-) TimerEvent: {}
+[21.698131] (-) TimerEvent: {}
+[21.799373] (-) TimerEvent: {}
+[21.901220] (-) TimerEvent: {}
+[22.002414] (-) TimerEvent: {}
+[22.106441] (-) TimerEvent: {}
+[22.212744] (-) TimerEvent: {}
+[22.314323] (-) TimerEvent: {}
+[22.415315] (-) TimerEvent: {}
+[22.517486] (-) TimerEvent: {}
+[22.619510] (-) TimerEvent: {}
+[22.720433] (-) TimerEvent: {}
+[22.821616] (-) TimerEvent: {}
+[22.922708] (-) TimerEvent: {}
+[23.024480] (-) TimerEvent: {}
+[23.125166] (-) TimerEvent: {}
+[23.226778] (-) TimerEvent: {}
+[23.328476] (-) TimerEvent: {}
+[23.429419] (-) TimerEvent: {}
+[23.532078] (-) TimerEvent: {}
+[23.635483] (-) TimerEvent: {}
+[23.737364] (-) TimerEvent: {}
+[23.838970] (-) TimerEvent: {}
+[23.940957] (-) TimerEvent: {}
+[24.043764] (-) TimerEvent: {}
+[24.145522] (-) TimerEvent: {}
+[24.247540] (-) TimerEvent: {}
+[24.349596] (-) TimerEvent: {}
+[24.450415] (-) TimerEvent: {}
+[24.551355] (-) TimerEvent: {}
+[24.652921] (-) TimerEvent: {}
+[24.759316] (-) TimerEvent: {}
+[24.861048] (-) TimerEvent: {}
+[24.962657] (-) TimerEvent: {}
+[25.064206] (-) TimerEvent: {}
+[25.165527] (-) TimerEvent: {}
+[25.268044] (-) TimerEvent: {}
+[25.369454] (-) TimerEvent: {}
+[25.470265] (-) TimerEvent: {}
+[25.571738] (-) TimerEvent: {}
+[25.673047] (-) TimerEvent: {}
+[25.776060] (-) TimerEvent: {}
+[25.877732] (-) TimerEvent: {}
+[25.980377] (-) TimerEvent: {}
+[26.082253] (-) TimerEvent: {}
+[26.183346] (-) TimerEvent: {}
+[26.284128] (-) TimerEvent: {}
+[26.385608] (-) TimerEvent: {}
+[26.487017] (-) TimerEvent: {}
+[26.588418] (-) TimerEvent: {}
+[26.630989] (cart_pole_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[26.688690] (-) TimerEvent: {}
+[26.791045] (-) TimerEvent: {}
+[26.892814] (-) TimerEvent: {}
+[26.994147] (-) TimerEvent: {}
+[27.095351] (-) TimerEvent: {}
+[27.197363] (-) TimerEvent: {}
+[27.298363] (-) TimerEvent: {}
+[27.399042] (-) TimerEvent: {}
+[27.506773] (-) TimerEvent: {}
+[27.608344] (-) TimerEvent: {}
+[27.715982] (-) TimerEvent: {}
+[27.820782] (-) TimerEvent: {}
+[27.924674] (-) TimerEvent: {}
+[28.032504] (-) TimerEvent: {}
+[28.084060] (cart_pole_controller) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[28.118883] (cart_pole_controller) CommandEnded: {'returncode': 0}
+[28.135427] (-) TimerEvent: {}
+[28.213054] (cart_pole_controller) JobProgress: {'identifier': 'cart_pole_controller', 'progress': 'install'}
+[28.236855] (-) TimerEvent: {}
+[28.246891] (cart_pole_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/cart_pole_controller'], 'cwd': '/home/user/ros2_ws/build/cart_pole_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5156'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin/python3:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/si:@/tmp/.ICE-unix/4610,unix/si:/tmp/.ICE-unix/4610'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/701217f9_43e4_4b97_8eb8_afe9dc7b2107'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'it_IT.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U1X9S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/gazebo_polecart_ros:/home/user/ros2_ws/install/cart_pole_description:/home/user/ros2_ws/install/cart_pole_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/cart_pole_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/gazebo_polecart_ros/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/cart_pole_description:/home/user/ros2_ws/install/cart_pole_controller:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble')]), 'shell': False}
+[28.273455] (cart_pole_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[28.280788] (cart_pole_controller) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/cart_pole_controller/lib/cart_pole_controller/controller\n'}
+[28.287645] (cart_pole_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/cart_pole_controller/lib/cart_pole_controller/controller" to ""\n'}
+[28.288539] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/package_run_dependencies/cart_pole_controller\n'}
+[28.289249] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/parent_prefix_path/cart_pole_controller\n'}
+[28.290099] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/ament_prefix_path.sh\n'}
+[28.291034] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/ament_prefix_path.dsv\n'}
+[28.291877] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/path.sh\n'}
+[28.292530] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/path.dsv\n'}
+[28.292976] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.bash\n'}
+[28.293567] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.sh\n'}
+[28.293953] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.zsh\n'}
+[28.294419] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.dsv\n'}
+[28.295439] (cart_pole_controller) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.dsv\n'}
+[28.295857] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/packages/cart_pole_controller\n'}
+[28.296224] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/cmake/cart_pole_controllerConfig.cmake\n'}
+[28.296580] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/cmake/cart_pole_controllerConfig-version.cmake\n'}
+[28.296927] (cart_pole_controller) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.xml\n'}
+[28.300758] (cart_pole_controller) CommandEnded: {'returncode': 0}
+[28.337578] (-) TimerEvent: {}
+[28.438394] (-) TimerEvent: {}
+[28.479870] (cart_pole_controller) JobEnded: {'identifier': 'cart_pole_controller', 'rc': 0}
+[28.482874] (-) EventReactorShutdown: {}

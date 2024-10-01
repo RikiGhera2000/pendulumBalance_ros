@@ -1,0 +1,26 @@
+[0.036s] Invoking command in '/home/user/ros2_ws/build/cart_pole_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_controller -- -j4 -l4
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.224s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[22.346s] [100%] [32m[1mLinking CXX executable controller[0m
+[23.343s] [100%] Built target controller
+[23.375s] Invoked command in '/home/user/ros2_ws/build/cart_pole_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/cart_pole_controller -- -j4 -l4
+[23.569s] Invoking command in '/home/user/ros2_ws/build/cart_pole_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_controller
+[23.606s] -- Install configuration: ""
+[23.608s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/lib/cart_pole_controller/controller
+[23.624s] -- Set runtime path of "/home/user/ros2_ws/install/cart_pole_controller/lib/cart_pole_controller/controller" to ""
+[23.625s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/package_run_dependencies/cart_pole_controller
+[23.626s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/parent_prefix_path/cart_pole_controller
+[23.626s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/ament_prefix_path.sh
+[23.627s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/ament_prefix_path.dsv
+[23.627s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/path.sh
+[23.628s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/environment/path.dsv
+[23.628s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.bash
+[23.629s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.sh
+[23.629s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.zsh
+[23.629s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/local_setup.dsv
+[23.630s] -- Installing: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.dsv
+[23.630s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/ament_index/resource_index/packages/cart_pole_controller
+[23.630s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/cmake/cart_pole_controllerConfig.cmake
+[23.630s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/cmake/cart_pole_controllerConfig-version.cmake
+[23.631s] -- Up-to-date: /home/user/ros2_ws/install/cart_pole_controller/share/cart_pole_controller/package.xml
+[23.634s] Invoked command in '/home/user/ros2_ws/build/cart_pole_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/ros2_ws/install/gazebo_polecart_ros:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/cart_pole_controller
